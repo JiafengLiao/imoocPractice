@@ -1,6 +1,7 @@
 package imooc.jdbc.hrapp;
 
 import imooc.jdbc.hrapp.command.InsertCommand;
+import imooc.jdbc.hrapp.command.PaginationCommand;
 import imooc.jdbc.hrapp.command.QueryCommand;
 
 import java.sql.SQLException;
@@ -12,7 +13,9 @@ public class humanResourceApplication {
 //        System.out.println("1。查询部门员工");
 //        QueryCommand qc = new QueryCommand();
 //        qc.execute();
-        InsertCommand ic = new InsertCommand();
-        ic.execute();
+//        InsertCommand ic = new InsertCommand();
+//        ic.execute();
+        PaginationCommand pc = new PaginationCommand();
+        pc.execute();
     }
 }
